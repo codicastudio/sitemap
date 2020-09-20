@@ -1,0 +1,56 @@
+{
+    "name": "codicastudio/sitemap",
+    "description": "A noobs worthless garbage, just learning.",
+    "keywords": [
+        "worthless garabage by a noob."
+    ],
+    "homepage": "https://github.com/codicastudio/sitemap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael J Brown",
+            "email": "mbrown@codicastudio.com",
+            "homepage": "https://codicastudio.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^8.0",
+        "nesbot/carbon": "^1.21|^2.0",
+        "spatie/crawler": "^4.1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.3.1",
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3",
+        "spatie/phpunit-snapshot-assertions": "^3.0.0",
+        "spatie/temporary-directory": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spatie\\Sitemap\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spatie\\Sitemap\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spatie\\Sitemap\\SitemapServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
