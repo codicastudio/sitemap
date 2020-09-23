@@ -1,10 +1,10 @@
 {
-    "name": "codicastudio/sitemap",
+    "name": "codica-studio/sitemap",
     "description": "A random Codica Studio package.",
     "keywords": [
         ""
     ],
-    "homepage": "https://github.com/codicastudio/sitemap",
+    "homepage": "https://github.com/codica-studio/sitemap",
     "license": "MIT",
     "authors": [
         {
